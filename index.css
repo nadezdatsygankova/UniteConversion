@@ -1,0 +1,114 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.conversation_body {
+  background: #fbf7ee;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.header {
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  text-align: center;
+  padding-top: 53px;
+  padding-bottom: 53px;
+}
+
+body {
+  font-family: 'Inter';
+  font-style: normal;
+  background-color: #1f2937;
+}
+
+.wrapper {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  margin-bottom: 53px;
+}
+
+.number {
+  font-weight: 800;
+  font-size: 97px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.conversation_body h4 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #1a1921;
+}
+
+.conversation_body p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #4e4e4e;
+}
+
+#inputNumber {
+  width: 7em;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-output {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+button {
+  background: #7057ef;
+  text-align: center;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+  color: white;
+  font-size: 18px;
+}
